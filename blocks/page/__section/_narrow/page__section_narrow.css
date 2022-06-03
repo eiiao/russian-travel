@@ -1,0 +1,26 @@
+
+.page__section_narrow {
+    padding-right: 148px;
+    padding-left: 148px;
+  }
+  
+  @media screen and (max-width: 1124px) {
+    .page__section_narrow {
+      padding-right: 48px;
+      padding-left: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .page__section_narrow {
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .page__section_narrow {
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+  }
