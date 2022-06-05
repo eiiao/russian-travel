@@ -1,10 +1,10 @@
-@import url(../fonts/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_narrow/page__section_narrow.css);
+@import url(../blocks/page/__section/_type/page__section_type_narrow.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
@@ -15,7 +15,6 @@
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__main-illustration/lead__main-illustration.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/list/list.css);
@@ -43,10 +42,3 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-
-
-
-* {
-  box-sizing: border-box;
-}

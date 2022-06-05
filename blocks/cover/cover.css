@@ -1,4 +1,5 @@
 .cover {
+  box-sizing: border-box;
   position: relative;
   margin: 92px auto 0;
   padding: 0 48px;
@@ -8,5 +9,11 @@
 @media screen and (max-width: 1124px) {
   .cover {
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cover {
+    margin-top: 64px;
   }
 }
