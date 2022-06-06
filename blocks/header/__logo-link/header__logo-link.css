@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 740px) {
   .header__logo-link {
     font-size: 18px;
     line-height: 20px;
